@@ -108,10 +108,14 @@
         <a class="button" href="#book">Book a screening</a>
       </div>
       <picture>
-        <source type="image/avif" srcset="assets/images/hero-400w.avif 400w, assets/images/hero-800w.avif 800w, assets/images/hero-1200w.avif 1200w" sizes="(max-width: 700px) 100vw, 50vw">
-        <source type="image/webp" srcset="assets/images/hero-400w.webp 400w, assets/images/hero-800w.webp 800w, assets/images/hero-1200w.webp 1200w" sizes="(max-width: 700px) 100vw, 50vw">
-        <img src="assets/images/hero-800w.jpg" srcset="assets/images/hero-400w.jpg 400w, assets/images/hero-800w.jpg 800w, assets/images/hero-1200w.jpg 1200w" sizes="(max-width: 700px) 100vw, 50vw" alt="Serendib Studios film crew setting up a camera at sunset" width="800" height="533" fetchpriority="high">
+        <img
+        src="assets/images/img1.jpg"
+        alt="Serendib Studios film crew setting up a camera at sunset"
+        width="800"
+        height="533"
+        fetchpriority="high">
       </picture>
+      
     </section>
 
     <section id="films" aria-labelledby="films-title">
@@ -119,18 +123,18 @@
       <div class="film-grid">
         <article class="card">
           <h3>The Spice Route</h3>
-          <p>A 90-minute journey through Sri Lanka's cinnamon trade. <time datetime="2023">2023</time> · 90 min</p>
+          <p>A 90-minute journey through Sri Lanka's cinnamon trade. <time datetime="2023">2023</time><br> · 90 min</p>
           <figure>
-            <img src="assets/images/spice-route-600w.jpg" alt="Cinnamon sticks drying in warm sunlight" width="600" height="400" loading="lazy">
+            <img src="assets/images/img2.jpg" alt="Cinnamon sticks drying in warm sunlight" width="600" height="400" loading="lazy">
             <figcaption>Behind the scenes from <cite>The Spice Route</cite>.</figcaption>
           </figure>
         </article>
 
         <article class="card">
           <h3>Monsoon Memory</h3>
-          <p>Personal stories from 2004 tsunami survivors. <time datetime="2024">2024</time> · 75 min</p>
+          <p>Personal stories from 2004 tsunami survivors. <time datetime="2024">2024</time><br> · 75 min</p>
           <figure>
-            <img src="assets/images/monsoon-memory-600w.jpg" alt="A quiet Sri Lankan beach under monsoon clouds" width="600" height="400" loading="lazy">
+            <img src="assets/images/img3.jpg" alt="A quiet Sri Lankan beach under monsoon clouds" width="600" height="400" loading="lazy">
             <figcaption>A coastal location featured in <cite>Monsoon Memory</cite>.</figcaption>
           </figure>
         </article>
@@ -199,8 +203,7 @@
     <section id="trailer" aria-labelledby="trailer-title">
       <h2 id="trailer-title">Watch the Trailer</h2>
       <video controls width="800" poster="assets/images/video-thumb.jpg" preload="metadata">
-        <source src="assets/video/serendib-trailer.mp4" type="video/mp4">
-        <source src="assets/video/serendib-trailer.webm" type="video/webm">
+        <source src="assets/video/video1.mp4" type="video/mp4">
         <track kind="captions" src="assets/captions/serendib-en.vtt" srclang="en" label="English" default>
         <p>Your browser does not support HTML5 video. <a href="assets/video/serendib-trailer.mp4">Download trailer (MP4)</a>.</p>
       </video>
@@ -210,7 +213,7 @@
       <h2 id="audio-title">Studio Podcast Sample</h2>
       <audio controls preload="none">
         <source src="assets/audio/serendib-podcast.ogg" type="audio/ogg">
-        <source src="assets/audio/serendib-podcast.mp3" type="audio/mpeg">
+        <source src="assets/audio/audio1.mp3" type="audio/mpeg">
         <p>Your browser does not support HTML5 audio. <a href="assets/audio/serendib-podcast.mp3">Download podcast (MP3)</a>.</p>
       </audio>
     </section>
